@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Facial Emotion Recognition</string>
+    <string name="developer_credit">Developed by SAKHI DEV</string>
+    <string name="tagline">Detect emotions in real-time</string>
+    <string name="start_detection">Start Detection</string>
+    <string name="back">Back</string>
+    <string name="emotion_happy">HAPPY</string>
+    <string name="emotion_sad">SAD</string>
+    <string name="emotion_nervous">NERVOUS</string>
+    <string name="emotion_neutral">NEUTRAL</string>
+    <string name="eyes_open">EYES OPEN</string>
+    <string name="eyes_closed">EYES CLOSED</string>
+    <string name="no_face_detected">No face detected</string>
+    <string name="camera_permission_required">Camera permission is required for facial detection</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="confidence">Confidence</string>
+</resources>

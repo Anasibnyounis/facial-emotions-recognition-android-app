@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#9B59F5"
+        android:strokeWidth="2"
+        android:pathData="M54,20 C35.2,20 20,35.2 20,54 C20,72.8 35.2,88 54,88 C72.8,88 88,72.8 88,54 C88,35.2 72.8,20 54,20Z" />
+    <!-- Face outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C084FC"
+        android:strokeWidth="2.5"
+        android:pathData="M54,26 C38.5,26 26,38.5 26,54 C26,69.5 38.5,82 54,82 C69.5,82 82,69.5 82,54 C82,38.5 69.5,26 54,26Z" />
+    <!-- Left eye -->
+    <path
+        android:fillColor="#9B59F5"
+        android:pathData="M 42,48 m -5,0 a 5,5 0 1,1 10,0 a 5,5 0 1,1 -10,0" />
+    <!-- Right eye -->
+    <path
+        android:fillColor="#9B59F5"
+        android:pathData="M 66,48 m -5,0 a 5,5 0 1,1 10,0 a 5,5 0 1,1 -10,0" />
+    <!-- Smile -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,64 Q54,74 68,64" />
+    <!-- Brain circuit lines (changed to solid since dash is unsupported) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#9B59F5"
+        android:strokeWidth="1.5"
+        android:pathData="M42,48 L34,40 M66,48 L74,40 M54,26 L54,34" />
+    <!-- Neural dots -->
+    <path android:fillColor="#22D3EE" android:pathData="M 34,40 m -2.5,0 a 2.5,2.5 0 1,1 5,0 a 2.5,2.5 0 1,1 -5,0" />
+    <path android:fillColor="#22D3EE" android:pathData="M 74,40 m -2.5,0 a 2.5,2.5 0 1,1 5,0 a 2.5,2.5 0 1,1 -5,0" />
+    <path android:fillColor="#9B59F5" android:pathData="M 54,34 m -2.5,0 a 2.5,2.5 0 1,1 5,0 a 2.5,2.5 0 1,1 -5,0" />
+</vector>
