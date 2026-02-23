@@ -180,6 +180,21 @@ fun SplashScreen(onNavigateToLanding: () -> Unit) {
                 )
             }
 
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Text(
+                text = "Demo Version\nDeveloped for\nMohamad ElJachi",
+                style = MaterialTheme.typography.bodyMedium.copy(
+                    color = TextMuted.copy(alpha = 0.7f),
+                    textAlign = TextAlign.Center,
+                    lineHeight = 20.sp,
+                    letterSpacing = 1.sp
+                ),
+                modifier = Modifier
+                    .padding(horizontal = 32.dp)
+                    .alpha(buttonAlpha)
+            )
+
             Spacer(modifier = Modifier.weight(1f))
 
             // ── Developer Credit ──────────────────────────────────
